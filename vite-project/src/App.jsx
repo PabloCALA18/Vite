@@ -13,7 +13,7 @@ function App() {
     else {
       newArray[n] = "O"
     }
-
+    // Gana Circulo
     if(newArray[0] == "O" && newArray[1] == "O" && newArray[2] == "O"){
        console.log("gano O")
     }
@@ -26,9 +26,47 @@ function App() {
    if(newArray[0] == "O" && newArray[3] == "O" && newArray[6] == "O"){
     console.log("gano O")
    }
-   if(newArray[0] == "O" && newArray[1] == "O" && newArray[2] == "O"){
+   if(newArray[1] == "O" && newArray[4] == "O" && newArray[7] == "O"){
     console.log("gano O")
    }
+   if(newArray[2] == "O" && newArray[5] == "O" && newArray[8] == "O"){
+    console.log("gano O")
+   }
+   if(newArray[0] == "O" && newArray[4] == "O" && newArray[8] == "O"){
+    console.log("gano O")
+  }
+  if(newArray[2] == "O" && newArray[4] == "O" && newArray[6] == "O"){
+  console.log("gano O")
+  }
+
+  // Gana X
+  if(newArray[0] == "X" && newArray[1] == "X" && newArray[2] == "X"){
+    console.log("gano X")
+ }
+ if(newArray[3] == "X" && newArray[4] == "X" && newArray[5] == "X"){
+   console.log("gano X")
+}
+if(newArray[6] == "X" && newArray[7] == "X" && newArray[8] == "X"){
+ console.log("gano X")
+}
+if(newArray[0] == "X" && newArray[3] == "X" && newArray[6] == "X"){
+ console.log("gano X")
+}
+if(newArray[1] == "X" && newArray[4] == "X" && newArray[7] == "X"){
+ console.log("gano X")
+}
+if(newArray[2] == "X" && newArray[5] == "X" && newArray[8] == "X"){
+ console.log("gano X")
+}
+if(newArray[0] == "X" && newArray[4] == "X" && newArray[8] == "X"){
+ console.log("gano X")
+}
+if(newArray[2] == "X" && newArray[4] == "X" && newArray[6] == "X"){
+console.log("gano X")
+}
+
+
+
     setnewValue(!newValue)
     setArray(newArray)
 
